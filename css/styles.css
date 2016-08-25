@@ -3,11 +3,25 @@
 	font-size: 20px;
 }
 
+#img{
+	float: left;
+	padding: 12px;
+}
+
+#item{
+	
+}
+
 #description{
 	font-size: 14px;
+	width: 200px;
+	clear: left;
 }
 
 #price{
-	float: right;
 	font-size: 14px;
+	text-align: right;
+	width: 200px;
 }
+
+

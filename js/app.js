@@ -13,6 +13,11 @@ var items =
 
 for (var i=0; i<items.length; i++){
 
+var images = document.createElement("img");
+images.id = "img";
+images.setAttribute('src', 'images/cart.svg');
+main.appendChild(images);
+
 var name = document.createElement('div');
 name.id = 'item';
 name.innerHTML = items[i].name;
@@ -34,4 +39,7 @@ image.innerHTML = items[i].image;
 main.appendChild(image);
 
 }
+
+
+
 };
