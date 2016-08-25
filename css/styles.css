@@ -1,0 +1,13 @@
+#main{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#description{
+	font-size: 14px;
+}
+
+#price{
+	float: right;
+	font-size: 14px;
+}
