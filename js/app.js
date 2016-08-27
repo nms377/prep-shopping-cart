@@ -55,6 +55,10 @@ price.className = 'price';
 price.innerHTML = items[i].price;
 wrap.appendChild(price);
 
+var line = document.createElement('hr');
+line.className = 'style13';
+wrap.appendChild(line);
+
 
 /*var image = document.createElement('IMG');
 image.id = 'shopping';
@@ -65,7 +69,8 @@ main.appendChild(image);*/ //<--Duplicate IMG w/ no src. Also, Phil's awesome ;)
 } //end of first for loop
 
 document.getElementById('subtotal');
-subtotal.innerHTML = 'SUBTOTAL: ' + sum;
+subtotal.innerHTML = 'SUBTOTAL: '+ sum;
+wrap.appendChild(subtotal);
 
 
 
