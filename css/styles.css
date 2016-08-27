@@ -1,27 +1,74 @@
-#main{
-	font-family: sans-serif;
-	font-size: 20px;
-}
-
-#img{
-	float: left;
-	padding: 12px;
-}
-
-#item{
+body{
+	background-color: #6A4061;
 	
 }
 
-#description{
-	font-size: 14px;
-	width: 200px;
+#banner{
+	font-family: 'Special Elite', 'cursive';
+	text-align: center;
+	color: #7CB82F;
+}
+
+#main{
+	background-color: #F7F4EE;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color:  #A16A4D;
+	clear: left;
+	padding: 0 10px;
+	margin-top: 50px;
+}
+
+.wrap{
+	padding: 25px;
+	display: flex;
+/*	align-items: flex-start;*/
+	align-content: flex-start;
+/*	justify-content: space-around;*/
+
+}
+
+.photos img{
+	border-radius: 5px;
+	height: 100px;
+	width: 100px;
+	padding: 0 25px;
 	clear: left;
 }
 
-#price{
+/*.img{
+	margin-right: 25px;
+	background-color: #F7F4EE;
+	padding: 10px;
+}*/
+
+.item{
+	font-family: 'Special ELite', 'cursive';
+	font-weight: bold;
+	padding: 10px;
+	height: 25%;}
+
+.description{
+	font-weight: normal;
 	font-size: 14px;
-	text-align: right;
-	width: 200px;
+	margin-right: 400px;
+	align-self: flex-end;
+	justify-content: flex-start;
+
 }
 
+.price{
+	font-weight: normal;
+	font-size: 14px;
+	float: right;
+	/*width: 200px;*/
+}
+
+#subtotal{
+	font-family: 'Special Elite', 'cursive';
+	color: #7CB82F;
+	float: right;
+	margin-top: 25px;
+	margin-right: 35px;
+}
 
